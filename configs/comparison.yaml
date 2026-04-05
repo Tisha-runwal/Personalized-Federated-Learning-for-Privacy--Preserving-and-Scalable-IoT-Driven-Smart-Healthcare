@@ -1,0 +1,8 @@
+comparison_run:
+  methods: [fedavg, fedprox, per_fedavg, pfedme, pfl_hcare]
+  datasets: [har, mimic]
+  rounds: 200
+  clients: 10
+  seeds: [42, 123, 456]
+  mode: sequential
+  save_results: true

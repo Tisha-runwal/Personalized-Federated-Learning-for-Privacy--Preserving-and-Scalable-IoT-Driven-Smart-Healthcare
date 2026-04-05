@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../configs:/app/configs
+      - ../datasets:/app/datasets
+    networks:
+      - pfl-network
+
+  dashboard:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.dashboard
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    networks:
+      - pfl-network
+
+networks:
+  pfl-network:
+    driver: bridge

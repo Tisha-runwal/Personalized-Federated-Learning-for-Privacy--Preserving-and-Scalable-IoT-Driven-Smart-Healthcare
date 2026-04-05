@@ -1,0 +1,35 @@
+training:
+  learning_rate: 0.01
+  batch_size: 32
+  num_clients: 10
+  num_rounds: 200
+  local_epochs: 5
+  seed: 42
+
+maml:
+  inner_lr: 0.005
+  inner_steps: 2
+  second_order: false
+
+privacy:
+  noise_multiplier: 0.3
+  max_grad_norm: 1.0
+  delta: 1.0e-5
+  target_epsilon: 10.0
+
+quantization:
+  k_bits: 8
+  enabled: true
+
+client_selection:
+  adaptive: true
+  min_participation_interval: 10
+
+secure_aggregation:
+  simulated: true
+  latency_range_ms: [50, 200]
+
+dataset:
+  name: "har"
+  partition_alpha: 0.5
+  test_fraction: 0.3

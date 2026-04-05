@@ -1,0 +1,17 @@
+torch>=2.0
+flwr>=1.5
+opacus>=1.4
+fastapi>=0.100
+uvicorn[standard]>=0.23
+websockets>=11.0
+pyyaml>=6.0
+numpy>=1.24
+pandas>=1.5
+scikit-learn>=1.2
+aiosqlite>=0.19
+httpx>=0.24
+wfdb>=4.1
+reportlab>=4.0
+scipy>=1.10
+pytest>=7.0
+pytest-asyncio>=0.21
