@@ -5,7 +5,8 @@
 # 🏥 PFL-HCare
 ### Personalized Federated Learning for Privacy-Preserving and Scalable IoT-Driven Smart Healthcare
 
-**TTEH LAB · School of Engineering, Dayananda Sagar University**
+**TTEH LAB · School of Engineering, Dayananda Sagar University**  
+*Bangalore – 562112, Karnataka, India*
 
 &nbsp;
 
@@ -411,10 +412,10 @@ Open **http://localhost:5173** to view the live dashboard.
 
 | Dataset | Purpose | Size | Access |
 |---|---|---|---|
-| **UCI HAR** | Activity recognition (wearable IoT) | 10,299 samples · 561 features · 6 classes | Free auto-download |
-| **MIMIC-III** | ICU mortality prediction | 48,520 stays · 17 features | PhysioNet credentials |
-| **Heart Disease UCI** | Cardiac risk classification | 303 samples · 13 features | Free auto-download |
-| **Synthetic Medical** | Fallback vital signs data | Configurable · 13 features · 3 clusters | Always available |
+| **UCI HAR** | Activity recognition (wearable IoT) | 10,299 samples · 561 features · 6 classes | https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones |
+| **MIMIC-III** | ICU mortality prediction | 48,520 stays · 17 features | https://physionet.org/content/mimiciii/ |
+| **Heart Disease UCI** | Cardiac risk classification | 303 samples · 13 features | https://archive.ics.uci.edu/ml/datasets/heart+diseas |
+| **Synthetic Medical** | Fallback vital signs data | Configurable · 13 features · 3 clusters | data/synthetic_generator.py |
 
 ---
 
@@ -468,11 +469,24 @@ The variance in PFL-HCare is **expected** — it directly demonstrates the priva
 
 <div align="center">
 
-## 👥 Authors
+## 👥 Contributors
 
-Dilip Kumar Jang Bahadur Saini · Nilesh Shelke · Amit Pimpalkar · Prajwalasimha S N · Ranjima P · Vinitha V
+Tisha Runwal · Vaishnavi Shetty · Chandana A N · Gagana V  
+ENG23CY0042 · ENG23CY0045 · ENG23CY0056 · ENG23CY0016   
+tisharunwal@gmail.com · vaishnaviapshetty@gmail.com · chandananatesh1@gmail.com · gaganagaganav2702@gmail.com
 
-**Department of Computer Science and Engineering (Cyber Security)**
+
+**Department of Computer Science and Engineering (Cyber Security)**   
+School of Engineering, Dayananda Sagar University
+
+---
+## 🧑‍🏫 Mentor
+
+Dr. Prajwalasimha S N, Ph.D., Postdoc. (NewRIIS)
+Associate Professor
+
+
+**Department of Computer Science and Engineering (Cyber Security)**   
 School of Engineering, Dayananda Sagar University
 
 ---
