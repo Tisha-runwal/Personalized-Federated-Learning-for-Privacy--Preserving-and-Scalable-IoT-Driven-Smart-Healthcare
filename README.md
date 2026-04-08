@@ -490,6 +490,7 @@ Associate Professor
 School of Engineering, Dayananda Sagar University
 
 ---
+## 🔬Laboratory
 
 **TTEH LAB · School of Engineering · Dayananda Sagar University**
 
