@@ -469,7 +469,7 @@ The variance in PFL-HCare is **expected** — it directly demonstrates the priva
 
 <div align="center">
 
-## 👥 Contributors
+## 👥 Team
 
 Tisha Runwal · Vaishnavi Shetty · Chandana A N · Gagana V  
 ENG23CY0042 · ENG23CY0045 · ENG23CY0056 · ENG23CY0016   
